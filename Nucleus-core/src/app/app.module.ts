@@ -7,6 +7,7 @@ import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { UserManagementComponent } from './user-management/user-management.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { DemoFeatureComponent } from './demo-feature/demo-feature.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
     LoginComponent,
     RegisterComponent,
     UserManagementComponent,
-    DashboardComponent
+    DashboardComponent,
+    DemoFeatureComponent
   ],
   imports: [
     BrowserModule,
